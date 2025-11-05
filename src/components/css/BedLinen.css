@@ -1,0 +1,15 @@
+.bed-linen-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #726c6c;
+    padding: 12px;
+    border-radius: 12px;
+    transition: all, 2s;
+}
+.bed-linen-wrap:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.cover-image img {
+    width: 94%;
+}

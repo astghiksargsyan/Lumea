@@ -1,0 +1,28 @@
+.subscribtion-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: #604f4f;
+    background-color: #fff;
+    padding: 26px 44px;
+}
+.subscribtion-section h4{
+    font-size: 25px;
+    margin: 0px;
+}
+.subscribe-btn{
+    background-color: #7a6464;
+    padding: 9px 15px;
+    margin-top: 12px;
+    color: #F9F9F8;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.input-style{
+    padding: 9px 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    display: inline-block;
+    margin-right: 5px;
+}

@@ -1,0 +1,24 @@
+.logo img{
+    width: 100%;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    background-color: #fffef8;
+}
+h1 {
+    color: #c2949c;
+    font-family: fangsong;
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+.header-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header-info P{
+    font-family: fangsong;
+    color: #7a595f;
+}  

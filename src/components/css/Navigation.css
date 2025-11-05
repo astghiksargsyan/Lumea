@@ -1,0 +1,13 @@
+ nav a{
+    text-decoration: none;
+    font-family: fangsong;
+    color: #7a595f;
+    cursor: pointer;
+ } 
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    grid-gap: 15px;
+    padding-right: 25px;
+}

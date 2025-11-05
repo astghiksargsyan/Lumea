@@ -1,0 +1,11 @@
+.bed-linen-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 34px;
+    width: 80%;
+    margin: 15px auto;
+}
+.bed-linen-list a {
+    text-decoration: none;
+    color: #000;
+}

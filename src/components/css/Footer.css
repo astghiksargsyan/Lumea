@@ -1,0 +1,21 @@
+.foother-content a{
+    text-decoration: none;
+    color: #604f4f;
+}
+.foother-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr; 
+    align-items: center;
+}
+.footer {
+    margin: 29px auto;
+    padding: 5px 46px;
+    background-color: #fffef8;
+}
+.footer-page-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+ul.footer-page-list li:first-child {
+    list-style-type: none;
+}
