@@ -22,3 +22,21 @@ h1 {
     font-family: fangsong;
     color: #7a595f;
 }  
+@media screen and (max-width: 768px){
+    .header-info{
+        grid-template-columns: 1fr 2fr;
+    }
+    .logo{
+        width:45px;
+        height: 45px;
+    }
+    .header-info h1{
+        font-size: 2rem;
+    }
+    .header-info p{
+        font-size: 1rem;
+    }
+    nav{
+        display:none;
+    }
+}

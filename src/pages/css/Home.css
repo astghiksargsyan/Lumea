@@ -88,3 +88,29 @@ ul.featured-list {
 .testimonials.set-width {
     margin-top: 90px;
 }
+@media screen and (max-width: 768px){
+    h2.home-h2 {
+        font-size:25px;
+    }
+    .home-header p{
+        font-size: 12px
+    }
+}
+@media screen and (max-width: 768px){ 
+    ul.featured-list{
+        display:block
+    }
+    .about-lumea.set-width, .testimonials-list, .subscribtion-section{
+        display: block;
+    }
+    .about-lumea p{
+        font-size:12px;
+    }
+    .foother-content, .footer-page-list{
+        display:block;
+        padding: 16px 26px;
+    }
+    ul.footer-page-list li:first-child {
+       list-style-type: disc;
+   }
+}
