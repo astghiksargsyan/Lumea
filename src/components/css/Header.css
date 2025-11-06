@@ -1,3 +1,4 @@
+
 .logo img{
     width: 100%;
 }
@@ -23,8 +24,9 @@ h1 {
     color: #7a595f;
 }  
 @media screen and (max-width: 768px){
-    .header-info{
+    .header{
         grid-template-columns: 1fr 2fr;
+        justify-items: start;
     }
     .logo{
         width:45px;

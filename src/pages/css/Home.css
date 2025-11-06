@@ -29,6 +29,7 @@ ul.featured-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
+    padding: 0;
 }
 .featured-item img{
     width: 100%;
@@ -89,6 +90,9 @@ ul.featured-list {
     margin-top: 90px;
 }
 @media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
     h2.home-h2 {
         font-size:25px;
     }
@@ -100,14 +104,24 @@ ul.featured-list {
     }
 }
 @media screen and (max-width: 768px){ 
+
+    .about-lumea.set-width h3 {
+        text-align: center;
+    }
+    .testimonials.set-width, .featured-sets-section, .about-lumea.set-width{
+        margin-top: 25px;
+    }
+    ul{
+        padding: 0px;
+    }
     ul.featured-list{
-        display:block
+        display:block;
     }
     .about-lumea.set-width, .testimonials-list, .subscribtion-section{
         display: block;
     }
     .about-lumea p{
-        font-size:12px;
+        font-size: 1rem;
     }
     .foother-content, .footer-page-list{
         display:block;

@@ -21,12 +21,14 @@ ul.footer-page-list li:first-child {
     list-style-type: none;
 }
 @media screen and (max-width: 768px){ 
-
     .foother-content, .footer-page-list{
         display: block;
         padding: 16px 26px;
     }
     ul.footer-page-list li:first-child {
        list-style-type: disc;
+   }
+   .footer{
+    padding: 0;
    }
 }
