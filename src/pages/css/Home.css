@@ -95,6 +95,9 @@ ul.featured-list {
     .home-header p{
         font-size: 12px
     }
+    .h3-style{
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width: 768px){ 
     ul.featured-list{
