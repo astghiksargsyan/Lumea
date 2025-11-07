@@ -4,7 +4,7 @@ import './App.css';
 import BedLinenList from './components/BedLinendList';
 import AboutUs from './pages/AboutUs';
 import Home from './pages/Home';
-
+import Login from './pages/Login';
 function App() {
   return (
 
@@ -13,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/collections" element={<BedLinenList />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     
   );

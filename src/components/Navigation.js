@@ -8,6 +8,7 @@ function Navigation (){
             <NavLink to="/">Home</NavLink>
             <NavLink to="/collections">Collections</NavLink>
             <NavLink to="/about">About</NavLink>
+            <NavLink to="/login">Login</NavLink>
         </nav>
     );
 }
