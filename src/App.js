@@ -7,14 +7,13 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+
       <Routes>
         <Route path="/Lumea" element={<Home />} />
 
         <Route path="/about" element={<AboutUs />} />
         <Route path="/collections" element={<BedLinenList />} />
       </Routes>
-    </BrowserRouter>
     
   );
 }
