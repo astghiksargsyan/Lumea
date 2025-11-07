@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/Lumea" element={<Home />} />
 
-        <Route path="/Lumea/about" element={<AboutUs />} />
-        <Route path="/Lumea/collections" element={<BedLinenList />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/collections" element={<BedLinenList />} />
       </Routes>
     </BrowserRouter>
     
