@@ -3,6 +3,7 @@
     font-family: fangsong;
     color: #7a595f;
     cursor: pointer;
+    padding: 8px;
  } 
 nav ul {
     display: grid;
