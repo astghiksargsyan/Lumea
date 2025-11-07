@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Lumea" element={<Home />} />
+        <Route path="/:offset?" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/collections" element={<BedLinenList />} />
       </Routes>
