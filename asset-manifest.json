@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Lumea/static/css/main.d97f0567.css",
-    "main.js": "/Lumea/static/js/main.b2a82f1c.js",
+    "main.js": "/Lumea/static/js/main.8b3613f8.js",
     "static/js/453.117b0875.chunk.js": "/Lumea/static/js/453.117b0875.chunk.js",
     "static/media/logo.png": "/Lumea/static/media/logo.77a6c2e95360f5c59c96.png",
     "index.html": "/Lumea/index.html",
     "main.d97f0567.css.map": "/Lumea/static/css/main.d97f0567.css.map",
-    "main.b2a82f1c.js.map": "/Lumea/static/js/main.b2a82f1c.js.map",
+    "main.8b3613f8.js.map": "/Lumea/static/js/main.8b3613f8.js.map",
     "453.117b0875.chunk.js.map": "/Lumea/static/js/453.117b0875.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d97f0567.css",
-    "static/js/main.b2a82f1c.js"
+    "static/js/main.8b3613f8.js"
   ]
 }
