@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom';
 function Navigation (){
     return (
         <nav>
-            <NavLink to="/">Lumea</NavLink>
+            <NavLink to="/">Home</NavLink>
             <NavLink to="/collections">Collections</NavLink>
             <NavLink to="/about">About</NavLink>
         </nav>

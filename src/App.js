@@ -9,7 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Lumea />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/Lumea" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/collections" element={<BedLinenList />} />
       </Routes>
