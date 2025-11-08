@@ -9,3 +9,8 @@
     text-decoration: none;
     color: #000;
 }
+@media screen and (max-width: 768px){
+    .bed-linen-list {
+        grid-template-columns: 1fr;
+    }
+}
