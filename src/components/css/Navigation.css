@@ -12,3 +12,27 @@ nav ul {
     grid-gap: 15px;
     padding-right: 25px;
 }
+.mobile-only{
+    display: none;
+}
+.open-on-click{
+    display: block;
+}
+.mobile-only  path {
+    stroke: #c3949d;
+}
+@media screen and (max-width: 768px){
+    .mobile-only{
+         display: block;
+         width: 45px;
+         height: 45px;
+    }
+    nav{
+        display:none;
+    }
+    nav.is-open {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+    }
+}
