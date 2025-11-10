@@ -19,6 +19,7 @@ function Navigation (){
                 <NavLink to="/collections">Collections</NavLink>
                 <NavLink to="/about">About</NavLink>
                 <NavLink to="/login">Login</NavLink>
+                <NavLink to="/register">Register</NavLink>
             </nav>
         </div>
         

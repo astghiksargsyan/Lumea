@@ -5,6 +5,7 @@ import BedLinenList from './components/BedLinendList';
 import AboutUs from './pages/AboutUs';
 import Home from './pages/Home';
 import Login from './pages/Login';
+import Register from './pages/Register';
 function App() {
   return (
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/collections" element={<BedLinenList />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     
   );
