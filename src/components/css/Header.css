@@ -4,7 +4,7 @@
 }
 .header{
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 4fr 2fr;
     align-items: center;
     background-color: #fffef8;
 }

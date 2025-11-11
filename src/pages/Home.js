@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import './css/Home.css' ;
 import { Sets } from "../bedSets";
 import Footer from "../components/Footer";
+
 function Home (){
     return(
         <div>

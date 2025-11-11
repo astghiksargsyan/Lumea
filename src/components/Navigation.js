@@ -17,7 +17,7 @@ function Navigation (){
             <nav className= {` desktop-menu  ${isOpen ? "is-open" : ""} `}>
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/collections">Collections</NavLink>
-                <NavLink to="/about">About</NavLink>
+                <NavLink to="/about">About Us</NavLink>
                 <NavLink to="/login">Login</NavLink>
                 <NavLink to="/register">Register</NavLink>
             </nav>
