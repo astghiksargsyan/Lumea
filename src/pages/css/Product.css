@@ -24,3 +24,12 @@ select.product-size {
     width: 100%;
     cursor: pointer;
 }
+@media screen and (max-width: 650px){
+    .single-product {
+        grid-template-columns: 1fr;
+
+    }
+    .single-product-cover img{
+        width: 100%
+    }
+}
